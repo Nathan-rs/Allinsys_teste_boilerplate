@@ -1,0 +1,16 @@
+# Arquivos gerados pelo ambiente de desenvolvimento
+node_modules/
+
+# Arquivos gerados pelo Grunt
+/dist/
+
+# Arquivos específicos do ambiente local
+.env
+
+# Arquivos de log e cache
+*.log
+*.cache
+
+# Outros arquivos específicos do ambiente de desenvolvimento
+.vscode/
+.DS_Store

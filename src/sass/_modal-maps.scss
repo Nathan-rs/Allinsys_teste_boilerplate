@@ -1,0 +1,25 @@
+.fg {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin: 0 5px;
+    margin-top: 1rem;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: $color-third;
+
+    &:first-child:first-of-type{
+        margin-top: 0;
+      }
+    
+    &.hasError{
+        border: 1px solid $color-danger !important;
+    
+        .fg-hd-if-ic {
+          color: $color-danger !important;
+        }
+        .fg-hd-if-tt {
+          color: $color-danger !important;
+        }
+    }
+}
