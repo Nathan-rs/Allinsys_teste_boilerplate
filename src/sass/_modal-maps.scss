@@ -1,25 +1,57 @@
-.fg {
-    width: 100%;
-    border: 1px solid white;
-    border-radius: 6px;
-    padding: 1.25rem;
-    margin: 0 5px;
-    margin-top: 1rem;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.05);
-    background-color: $color-third;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  gap: 0.4rem;
+}
 
-    &:first-child:first-of-type{
-        margin-top: 0;
-      }
-    
-    &.hasError{
-        border: 1px solid $color-danger !important;
-    
-        .fg-hd-if-ic {
-          color: $color-danger !important;
-        }
-        .fg-hd-if-tt {
-          color: $color-danger !important;
-        }
-    }
+.map {
+  padding: 2rem;
+  height: 70vh;
+  border: 1px solid red;
+}
+
+.content {
+  width: 85%;
+  border: 1px solid #fff;
+}
+
+.erro-show-map {
+  color: $color-danger;
+}
+
+.header-title {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 1px solid #fff;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: $color-primary;
+}
+
+.div-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  width: 100%;
+  // border: 1px solid #fff;
+
+}
+
+.btn-ok {
+  cursor: pointer;
+  background-color: $color-secondary;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  width: 6rem;
+  color: $color-primary;
 }

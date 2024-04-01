@@ -26,8 +26,6 @@ const modalMaps = new ModalMaps({
 
 fildModalMaps.appendToContent(modalMaps.getView())
 
-// console.log(modalMaps.getView())
-
 const contentList = [otherFieldGroup.getView(), fildModalMaps.getView()]
 
 
